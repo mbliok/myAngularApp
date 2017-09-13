@@ -12,6 +12,10 @@
       <span class="remove" (click)="onRemoveServerText(i)">remove</span>
     </li>
   </ul>
-  <app-header></app-header>
 
+  <p appBasicExample>Style this with basic directive</p>
+  <p appBetterExample>Style this with better directive</p>
+  <p appHoverExample>Style this with hover directive</p>
+  <p appEasyExample [defaultColor]="'yellow'" [dangerColor]="'violet'">Style this easy directive</p>
+  <app-header></app-header>
 </div>
