@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-parent',
@@ -8,7 +8,8 @@ export class ParentComponent {
   constuctor() {
     
   }
-    books: Object = {
-      bookReviews: 15
-    }
+  message = "Hi maia"
+    // books: Object = {
+    //   bookReviews: 15
+    // }
 }
